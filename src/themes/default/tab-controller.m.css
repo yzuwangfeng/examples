@@ -1,0 +1,23 @@
+@import "@dojo/themes/dojo/tab-controller.m.css";
+@import "./variables.css";
+
+.root {
+}
+
+.tabButton {
+  padding: 10px 4px;
+}
+
+.tabButton:focus:not(.disabledTabButton) {
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: #7f9cbd;
+  box-shadow: unset;
+  -webkit-box-shadow: unset;
+}
+
+.activeTabButton {
+  border-bottom-color: #7f9cbd;
+  color: #006be6;
+}
